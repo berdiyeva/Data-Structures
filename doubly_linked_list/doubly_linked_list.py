@@ -94,6 +94,7 @@ class DoublyLinkedList:
             self.tail = None
             self.head = None
             self.length -= 1
+            return old_value
         else:
             old_value = self.tail.value
             old_tail = self.tail
